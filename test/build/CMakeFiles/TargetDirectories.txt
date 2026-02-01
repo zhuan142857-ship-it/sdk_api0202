@@ -1,0 +1,3 @@
+C:/Users/laoshen/Desktop/temp006/sdk_api0202/test/build/CMakeFiles/test_sdk_api.dir
+C:/Users/laoshen/Desktop/temp006/sdk_api0202/test/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/laoshen/Desktop/temp006/sdk_api0202/test/build/CMakeFiles/ZERO_CHECK.dir

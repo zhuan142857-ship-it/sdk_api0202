@@ -1,0 +1,10 @@
+^C:\USERS\LAOSHEN\DESKTOP\TEMP006\SDK_API0202\BUILD\CMAKEFILES\BEC8AF3C56296AFFD3BC4DC055F9C35F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/laoshen/Desktop/temp006/sdk_api0202 -BC:/Users/laoshen/Desktop/temp006/sdk_api0202/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/laoshen/Desktop/temp006/sdk_api0202/build/sdk_api_example.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
