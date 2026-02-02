@@ -11,5 +11,3 @@ test2项目，需要include/api.h,build\Release\的3个文件。
 test2需要.exe+.dll文件
 
 关键在于cmake文件的配置。
-生成库的时候，需要配置根目录下的cmake文件。
-使用库的时候，需要配置test2目录下的cmake。
